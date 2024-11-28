@@ -162,7 +162,7 @@ function main(config) {
             type: "http",
         },
         github: {
-            url: "https://github.com/Lucasss1916/clash/raw/refs/heads/main/rule/github.yaml",
+            url: "https://raw.githubusercontent.com/Lucasss1916/clash/refs/heads/main/rule/github.yaml",
             path: "./ruleset/github.yaml",
             behavior: "domain",
             interval: 86400,
