@@ -313,9 +313,9 @@ function main(config) {
             format: "yaml",
             type: "http",
         },
-        appledaily: {
-            url: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/appledaily.yaml",
-            path: "./ruleset/appledaily.yaml",
+        AppleCDNRules: {
+            url: "https://github.com/Lucasss1916/clash/raw/refs/heads/main/rule/AppleCDNRules.yaml",
+            path: "./ruleset/AppleCDNRules.yaml",
             behavior: "classical",
             interval: 86400,
             format: "yaml",
