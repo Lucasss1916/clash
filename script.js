@@ -307,8 +307,6 @@ function main(config) {
     });
 
     config["rules"] = [                     
-        "IP-CIDR,6.6.6.6/32,DIRECT,no-resolve",
-        
         "RULE-SET,microsoft,Microsoft",  
         "RULE-SET,github,Github",   
         "RULE-SET,spotify,Spotify",
@@ -320,7 +318,6 @@ function main(config) {
         "RULE-SET,claude,AIGC",
         "RULE-SET,steam,DIRECT",
         "RULE-SET,steamcn,DIRECT",
-
         
         "RULE-SET,AppleNoChinaCDNRules,PROXY",
         "RULE-SET,AppleRules,Apple",
