@@ -3,8 +3,6 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
             name: "PROXY",
             type: "select",
             proxies: ["AUTO", "HK", "SG", "JP","KR", "US","TW","EU","AU"],
@@ -12,8 +10,6 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png",
             "include-all": true,
-            "exclude-filter":      
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
             name: "AUTO",
             type: "url-test",
             interval: 300,
@@ -63,8 +59,6 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
             filter: "(?i)香港|Hong Kong|HK|🇭🇰",
             name: "HK",
             type: "url-test",
@@ -73,9 +67,7 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-            filter: "(?i)新加坡|Singapore|🇸🇬",
+            filter: "(?i)新加坡|Singapore|sg|🇸🇬",
             name: "SG",
             type: "url-test",
             interval: 300,
@@ -83,9 +75,7 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-            filter: "(?i)日本|Japan|🇯🇵",
+            filter: "(?i)日本|Japan|jp|🇯🇵",
             name: "JP",
             type: "url-test",
             interval: 300,
@@ -93,9 +83,7 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-            filter: "(?i)台湾|Taiwan|taiwan|tw",
+            filter: "(?i)台湾|Taiwan|taiwan|tw|tw",
             name: "TW",
             type: "url-test",
             interval: 300,
@@ -103,9 +91,7 @@ function main(config) {
         {
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/kr.svg",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-            filter: "(?i)韩国|Korea|KR|kr",
+            filter: "(?i)韩国|Korea|KR|kr|kr",
             name: "KR",
             type: "url-test",
             interval: 300,
@@ -113,8 +99,7 @@ function main(config) {
         {
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/eu.svg",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
+
             filter: "(?i)法国|德国|英国",
             name: "EU",
             type: "url-test",
@@ -123,8 +108,7 @@ function main(config) {
         {
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/au.svg",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
+
             filter: "(?i)澳大利亚|Australia",
             name: "AU",
             type: "url-test",
@@ -133,9 +117,8 @@ function main(config) {
         {
             icon: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png",
             "include-all": true,
-            "exclude-filter":
-                "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-            filter: "(?i)美国|USA|🇺🇸",
+
+            filter: "(?i)美国|USA|us-|🇺🇸",
             name: "US",
             type: "url-test",
             interval: 300,
