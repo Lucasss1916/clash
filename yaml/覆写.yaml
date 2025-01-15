@@ -234,6 +234,19 @@ proxy-groups:
       - EU
       - AU
       - KR
+  - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png
+      name: Steam
+      type: select
+      proxies:
+        - DIRECT
+        - HK
+        - SG
+        - JP
+        - US
+        - TW
+        - EU
+        - AU
+        - KR
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
     name: Microsoft
     type: select
@@ -308,6 +321,8 @@ proxy-groups:
     interval: 300
 rules:
   - IP-CIDR,6.6.6.6/32,DIRECT,no-resolve
+  - RULE-SET,steamcn,DIRECT
+  - RULE-SET,steam,Steam
   - RULE-SET,microsoft,Microsoft
   - RULE-SET,github,Github
   - RULE-SET,spotify,Spotify
