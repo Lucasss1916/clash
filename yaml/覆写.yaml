@@ -332,8 +332,7 @@ rules:
   - RULE-SET,bard,AIGC
   - RULE-SET,openai,AIGC
   - RULE-SET,claude,AIGC
-  - RULE-SET,steam,DIRECT
-  - RULE-SET,steamcn,DIRECT
+  
   - RULE-SET,AppleNoChinaCDNRules,PROXY
   - RULE-SET,AppleRules,Apple
   - RULE-SET,AppleAPIRules,Apple
